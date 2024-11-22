@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+
+
+.input-div{
+  width: 75%;
+
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+
+
+}
+
+.input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 10px auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input[type="text"]:focus {
+    border: 2px solid #00e7ff;
+    background: linear-gradient(90deg, #141e30, #243b55);
+    color: #00e7ff;
+    box-shadow: 0 0 10px #00b3ff, 0 0 20px #006eff;
+   
+    transform: scale(1.05);
+  }
+  
+  .input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+  }
+  
+  .input[type="text"]:hover {
+    border: 2px solid #00b3ff;
+    box-shadow: 0 0 15px #00e7ff, 0 0 30px #00e7ff;
+  }
+  .when-typing{
+    border: 2px solid #00b3ff !important;
+    box-shadow: 0 0 15px #00e7ff, 0 0 30px #00e7ff !important;
+  }
+
+  .todo-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  .todo-button:hover {
+    border-color: #646cff;
+  }
+  .todo-button:focus,
+  .todo-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  
+  
